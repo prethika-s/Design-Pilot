@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0b0f19] text-gray-100 font-sans;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(15, 32, 66, 0.4) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(0, 203, 203, 0.1) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Glassmorphism card utility */
+.glass-card {
+  @apply bg-[#161c2a]/80 backdrop-blur-md border border-gray-800 rounded-2xl shadow-xl transition-all duration-300;
+}
+
+.glass-card:hover {
+  @apply border-gray-700/80 shadow-2xl;
+}
+
+/* Glowing text utility */
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 203, 203, 0.4);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Micro-animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 4s infinite ease-in-out;
+}
