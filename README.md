@@ -83,7 +83,6 @@ cd backend
 npm install
 npm run dev
 ```
-The API starts on [http://localhost:5000](http://localhost:5000).
 
 ### 2. Launch the Frontend Dev Console
 Navigate to the `frontend/` directory, install packages, and boot the Vite server:
@@ -100,8 +99,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. All API cal
 
 ArchitectAI features interactive Swagger documentation detailing all endpoints and model payloads. 
 
-Once the backend starts, navigate to:
-👉 [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
 ---
 
@@ -124,6 +121,3 @@ To spin up the database, Express API server, and React client Nginx server autom
 ```bash
 docker-compose up --build
 ```
-
-- **Frontend client console**: [http://localhost:3000](http://localhost:3000)
-- **Backend Swagger API docs**: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
