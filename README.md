@@ -95,13 +95,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. All API cal
 
 ---
 
-## API Documentation
-
-ArchitectAI features interactive Swagger documentation detailing all endpoints and model payloads. 
-
-
----
-
 ## Verification & Testing
 
 The backend contains integration tests testing route auth, project states, and PDF builds.
