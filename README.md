@@ -91,7 +91,6 @@ cd frontend
 npm install
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser. All API calls are automatically proxied to port 5000.
 
 ---
 
