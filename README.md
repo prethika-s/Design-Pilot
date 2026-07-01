@@ -1,6 +1,6 @@
-# ArchitectAI 📐
+# System Design Copilot 📐
 
-ArchitectAI is an AI-powered Product & Architecture Copilot designed to transform rough product descriptions into structured engineering specifications. By analyzing the initial idea through a discovery agent, processing requirement priority backlogs, recommending architectural patterns, comparing technology tradeoffs, logging architecture decisions, and generating downloadable PDF reports, ArchitectAI acts as a Staff Engineer copilot.
+System Design Copilot is an AI-powered Product & Architecture Copilot designed to transform rough product descriptions into structured engineering specifications. By analyzing the initial idea through a discovery agent, processing requirement priority backlogs, recommending architectural patterns, comparing technology tradeoffs, logging architecture decisions, and generating downloadable PDF reports, ArchitectAI acts as a Staff Engineer copilot.
 
 ---
 
